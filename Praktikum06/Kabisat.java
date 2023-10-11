@@ -8,7 +8,7 @@ public class Kabisat {
         System.out.println("Masukkan Tahun");
         tahun = sc.nextInt();
 
-        if ((tahun %4 == 0) && (tahun %100 != 0) || (tahun %400 == 0) && (tahun %100 !=0)){
+        if ((tahun %400 == 0) && (tahun %100 != 0) || (tahun %4 == 0) && (tahun %100 !=0)){
         System.out.println("Its Leap Year");
         } else {
             System.out.println("Its Not Leap Year");

@@ -12,14 +12,7 @@ public class Bilangan09 {
         System.out.println("Masukkan Bilangan Ketiga");
         bil3 = sc.nextInt();
 
-        if (bil1>bil2) {
-            if (bil1>bil3) {
-                System.out.println("Bilangan Terbesar = bil1");
-            } else {
-                System.out.println("Bilangan Terbesar = bil3");
-            }           
-        } else {
-            System.out.println("Bilangan Terbesar = bil2");
-        }
+        String largest = (bil1 > bil2) ? (bil1 > bil3) ? "bil1" : "bil3" : "bil2";
+        System.out.println("Bilangan Terbesar = " + largest);
     }
 }

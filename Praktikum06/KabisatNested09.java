@@ -8,13 +8,13 @@ public class KabisatNested09 {
     System.out.println("Masukkan Tahun");
     tahun = sc.nextInt();
 
-    if ((tahun % 4) == 0) {
-        if ((tahun % 1000) != 0)
+    if ((tahun % 400) == 0) {
+    }else if ((tahun %100) == 0){
         System.out.println("Its Leap Year");
-        else if ((tahun % 400) == 0)
+    }else if ((tahun %4) == 0){
         System.out.println("Its Leap Year");
-    }else
-        System.out.println("Its not Leap Year");
-
     }
-}
+     else 
+    System.out.println("Its Not Leap Year");
+    }
+}      

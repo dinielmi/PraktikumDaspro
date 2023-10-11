@@ -10,9 +10,11 @@ public class KabisatNested09 {
 
     if ((tahun % 4) == 0) {
         if ((tahun % 1000) != 0)
-        System.out.println("Tahun Kabisat");
+        System.out.println("Its Leap Year");
+        else if ((tahun % 400) == 0)
+        System.out.println("Its Leap Year");
     }else
-        System.out.println("Bukan Tahun Kabisat");
+        System.out.println("Its not Leap Year");
 
     }
 }

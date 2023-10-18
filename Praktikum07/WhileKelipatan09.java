@@ -22,7 +22,7 @@ public class WhileKelipatan09 {
         i++;
     }
 
-    System.out.printf("Pada rentang 1-50 %d dengan total %d", counter, bilangan, total);
+        System.out.printf("Pada rentang 1-50 %d dengan total %d", counter, bilangan, total);
 
     }
 }

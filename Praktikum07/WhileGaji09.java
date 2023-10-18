@@ -11,6 +11,10 @@ public class WhileGaji09 {
     gajiLembur = 0;
     totalGajiLembur = 0;
 
+    System.out.print("======Selamat Datang=====");
+    
+    System.out.println("");
+
     System.out.print("Masukkan Jumlah Karyawan: ");
     jumlahKaryawan = sc.nextInt();
     jabatan = sc.nextLine();

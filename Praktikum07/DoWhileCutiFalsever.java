@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class DoWhileCuti09 {
+public class DoWhileCutiFalsever {
     public static void main(String[] args) {
     
         Scanner sc = new Scanner(System.in);
@@ -24,9 +24,8 @@ public class DoWhileCuti09 {
                     System.out.println("Sisa jatah cuti anda tidak mencukupi");
                     break;
                 }
-            } 
-            
+            }
         } while (jatahCuti > 0);
-
+        
     }
 }

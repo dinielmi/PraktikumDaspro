@@ -7,7 +7,7 @@ public class ArrayNilai09 {
     int[] nilaiAkhir =  new int[10];
     
     for (int i = 0; i < nilaiAkhir.length; i++) {
-        System.out.println("Masukkan nilai akhir mahasiswa ke-" + (i+1) + ": ");
+        System.out.print("Masukkan nilai akhir mahasiswa ke-" + (i+1) + ": ");
         nilaiAkhir[i] = sc.nextInt();
     }    
 

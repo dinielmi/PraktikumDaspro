@@ -1,7 +1,7 @@
 public class LinearSearch09 {
     public static void main(String[] args) {
         
-        int[] arrayInt = {34,18,26,48,72,20,56,63};
+        int[] arrayInt = {34, 18, 26, 48, 72, 20, 56, 63};
         int key = 20;
         int hasil = 0;
 
@@ -12,7 +12,7 @@ public class LinearSearch09 {
             }
         }
 
-        System.out.println("Key ada dalam array pada posisi indeks ke-"+hasil);
-        
+        System.out.println("Key ada dalam array pada posisi indeks ke-" + hasil);
+
     }
 }

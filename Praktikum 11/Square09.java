@@ -7,11 +7,11 @@ public class Square09 {
         
         int n = sc.nextInt();
 
-       for (int i = 1; i <= n; i++){
-         for (int j = 1; j <= n; j++){
+        for (int i = 1; i <= n; i++){            // outer loop
+         for (int j = 1; j <= n; j++){          // inner loop
             System.out.print("*");
         }
-        System.out.println();
+           System.out.println();               // outer loop
        }
     }
 }

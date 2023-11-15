@@ -4,7 +4,10 @@ public class NestedLoop09 {
         
         Scanner sc = new Scanner(System.in);
 
-        double [][] suhu = new double[2][4];
+        System.out.print("Masukkan jumlah kota: ");
+        int n = sc.nextInt();
+
+        double [][] suhu = new double[n][4];
        // double [] rataRata = new double[5];
 
         for(int i = 0; i < suhu.length; i++){

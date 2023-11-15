@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Star09 {
+    public static void main(String[] args) {
+        Scanner sc = new java.util.Scanner(System.in);
+
+        System.out.print("Masukkan jumlah *: ");
+        int n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++){
+            System.out.print("*");
+        }
+    }  
+}
